@@ -36,6 +36,7 @@ main {
 }
 
 .form {
+    max-width: 100%;
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
@@ -50,7 +51,6 @@ main {
 }
 
 .form--button {
-    max-width: 100%;
     grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
