@@ -50,6 +50,7 @@ main {
 }
 
 .form--button {
+    max-width: 100%;
     grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
